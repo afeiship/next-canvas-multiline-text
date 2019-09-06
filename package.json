@@ -1,0 +1,39 @@
+{
+  "name": "next-canvas-multiline-text",
+  "version": "1.0.0",
+  "description": "Multiline text for canvas.",
+  "homepage": "https://github.com/afeiship/next-canvas-multiline-text",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "jest",
+    "version": "gulp bump"
+  },
+  "main": "dist/next-canvas-multiline-text.js",
+  "license": "MIT",
+  "devDependencies": {
+    "canvas": "^2.6.0",
+    "del": "^2.2.1",
+    "gulp": "^4.0.2",
+    "gulp-bump": "^3.1.3",
+    "gulp-debug": "^4.0.0",
+    "gulp-header": "^2.0.7",
+    "gulp-ignore": "^2.0.2",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^2.1.2",
+    "jest": "^23.6.0",
+    "next-nice-comments": "github:afeiship/next-nice-comments",
+    "prettier": "^1.14.3",
+    "uglify-save-license": "^0.4.1",
+    "yargs": "^4.7.1"
+  },
+  "dependencies": {
+    "next-js-core2": "github:afeiship/next-js-core2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "next-canvas-multiline-text",
+  "version": "0.0.1",
+  "description": "nextBoilerplatePackageDescription",
+  "main": "dist/next-canvas-multiline-text.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-canvas-multiline-text",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
