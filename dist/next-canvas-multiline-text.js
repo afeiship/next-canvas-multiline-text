@@ -2,7 +2,7 @@
  * name: next-canvas-multiline-text
  * url: https://github.com/afeiship/next-canvas-multiline-text
  * version: 1.0.0
- * date: 2019-09-06T10:36:48.166Z
+ * date: 2019-09-09T02:33:54.893Z
  * license: MIT
  */
 
@@ -37,6 +37,7 @@
     var len_ = len - 1;
     var i = 0;
 
+    if (!options.text) return { line: 0, items: items };
     // initial setting:
     options.callback(ctx);
 
