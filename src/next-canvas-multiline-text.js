@@ -29,7 +29,7 @@
     var len_ = len - 1;
     var i = 0;
 
-    if (!options.text) return { line: 0, items: items };
+    if (!options.text || !options.text.trim()) return { line: 0, items: items };
     // initial setting:
     options.callback(ctx);
 
