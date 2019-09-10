@@ -2,7 +2,7 @@
  * name: next-canvas-multiline-text
  * url: https://github.com/afeiship/next-canvas-multiline-text
  * version: 1.0.0
- * date: 2019-09-10T08:57:47.689Z
+ * date: 2019-09-10T08:59:14.862Z
  * license: MIT
  */
 

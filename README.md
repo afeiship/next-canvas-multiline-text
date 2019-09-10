@@ -11,6 +11,9 @@ npm install -S afeiship/next-canvas-multiline-text --registry=https://registry.n
 import 'next-canvas-multiline-text';
 
 //usage:
+const canvas = createCanvas(500, 500);
+const ctx = canvas.getContext('2d');
+
 nx.canvasMultilineText({
   canvas: createCanvas(500, 500),
   callback: function(ctx) {
