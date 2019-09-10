@@ -14,8 +14,9 @@ import 'next-canvas-multiline-text';
 const canvas = createCanvas(500, 500);
 const ctx = canvas.getContext('2d');
 
+// DO NOT Create canvas everytime, will slowly
 nx.canvasMultilineText({
-  canvas: createCanvas(500, 500),
+  ctx: ctx,
   callback: function(ctx) {
     ctx.font = '30px Arial';
   },
