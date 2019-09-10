@@ -19,7 +19,7 @@
 
   nx.canvasMultilineText = function(inOptions) {
     var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
-    var ctx = options.canvas.getContext('2d');
+    var ctx = options.ctx;
     var words = trim(options.text).split(EMPTY_STR);
     var tmp = EMPTY_STR;
     var line = 1;

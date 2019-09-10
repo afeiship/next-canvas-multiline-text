@@ -2,7 +2,7 @@
  * name: next-canvas-multiline-text
  * url: https://github.com/afeiship/next-canvas-multiline-text
  * version: 1.0.0
- * date: 2019-09-09T09:52:38.833Z
+ * date: 2019-09-10T08:57:47.689Z
  * license: MIT
  */
 
@@ -27,7 +27,7 @@
 
   nx.canvasMultilineText = function(inOptions) {
     var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
-    var ctx = options.canvas.getContext('2d');
+    var ctx = options.ctx;
     var words = trim(options.text).split(EMPTY_STR);
     var tmp = EMPTY_STR;
     var line = 1;
