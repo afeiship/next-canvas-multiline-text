@@ -48,13 +48,13 @@ describe('benchmark test', () => {
   draw('中');
   console.timeEnd('t1111');
 
-  // console.time('t2222');
-  // draw('中国人');
-  // console.timeEnd('t2222');
+  console.time('t2222');
+  draw('中国人');
+  console.timeEnd('t2222');
 
-  // console.time('t3333');
-  // draw(
-  //   '清晨醒来，打开窗帘，一抹慵懒的阳光照进来，暖暖的，柔柔的，时光瞬间变得温婉静美，打开音乐，沏一杯花茶，躺在床上，暖阳淼淼.'
-  // );
-  // console.timeEnd('t3333');
+  console.time('t3333');
+  draw(
+    '清晨醒来，打开窗帘，一抹慵懒的阳光照进来，暖暖的，柔柔的，时光瞬间变得温婉静美，打开音乐，沏一杯花茶，躺在床上，暖阳淼淼.'
+  );
+  console.timeEnd('t3333');
 });
